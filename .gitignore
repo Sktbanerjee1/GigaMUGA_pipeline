@@ -1,0 +1,13 @@
+# R project related
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+*.Rproj
+
+# test data
+data/
+
+# test output data
+results/
+.Rproj.user
