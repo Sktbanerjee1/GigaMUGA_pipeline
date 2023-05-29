@@ -83,3 +83,5 @@ if(length(report_files_path)==0){
 # parse FinalReport file end
 #--------------------------------
 
+# write parsed FinalReport file
+data.table::fwrite(gigamuga_data, paste0(args$out_dir,"parsed_FinalReport.csv"))
